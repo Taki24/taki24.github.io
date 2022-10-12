@@ -175,10 +175,17 @@ function _constructTangleLayout(d3){return(
   const padding = 8;
   const node_height = 22;
   const node_width = 70;
-  const bundle_width = 14;
+  const bundle_width = 20;
   const level_y_padding = 16;
-  const metro_d = 4;
+  const metro_d = 6;
   const min_family_height = 22;
+  // const padding = 8;
+  // const node_height = 22;
+  // const node_width = 70;
+  // const bundle_width = 14;
+  // const level_y_padding = 16;
+  // const metro_d = 4;
+  // const min_family_height = 22;
   
   options.c ||= 16;
   const c = options.c;
